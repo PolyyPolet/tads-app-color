@@ -1,0 +1,99 @@
+/* ===== Reset suave ===== */
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco",
+                 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* ===== Fondo ===== */
+body {
+    background: radial-gradient(circle at top, #1c1c1e, #000);
+    color: #e5e5e7;
+}
+
+/* ===== Tarjeta ===== */
+.app-card {
+    background: rgba(28, 28, 30, 0.95);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow:
+        0 20px 40px rgba(0,0,0,0.6),
+        inset 0 1px 0 rgba(255,255,255,0.04);
+}
+
+/* ===== Título ===== */
+.app-title {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+
+/* ===== Controles ===== */
+.control {
+    margin-bottom: 18px;
+}
+
+.control label {
+    font-size: 0.85rem;
+    color: #9b9b9f;
+    margin-bottom: 6px;
+    display: block;
+}
+
+/* Fila slider + input */
+.control-row {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+/* Slider estilo Apple */
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background: #2c2c2e;
+    border-radius: 10px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Input numérico */
+input[type="number"] {
+    width: 70px;
+    background: #1c1c1e;
+    border: 1px solid #2c2c2e;
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 4px;
+}
+
+/* ===== Color box ===== */
+.color-box {
+    margin-top: 25px;
+    height: 140px;
+    border-radius: 14px;
+    background: black;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08);
+}
+
+/* ===== Info ===== */
+.color-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    color: #b5b5b7;
+}
